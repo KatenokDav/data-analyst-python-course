@@ -37,6 +37,6 @@ print(len(analiticPython))
 print(analiticPython[0]['vactitle'])
 # print(analiticPython[0]['vacdescription'])
 
-# # вывод всех вакансий
+# вывод всех вакансий
 # vac=Counter(row['vactitle']for row in vacancy)
 # print(vac.most_common(4003))

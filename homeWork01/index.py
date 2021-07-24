@@ -34,8 +34,7 @@ print()
 analiticPython=[row for row in vacancy if row['vacdescription'].lower().find('python') != -1 and row['vactitle'].lower().find('аналитик данных') != -1]
 print('analiticPython')
 print(len(analiticPython))
-print(analiticPython[0]['vactitle'])
-# print(analiticPython[0]['vacdescription'])
+
 
 # вывод всех вакансий
 # vac=Counter(row['vactitle']for row in vacancy)
